@@ -130,3 +130,25 @@ h5{
   background-color: #000000;
   color: white;
 }
+
+
+.content {
+  padding-left: 4%;
+}
+
+@media (max-width: 600px) {
+  .containerFlex {
+    flex-direction: column;
+  }
+}
+
+.containerFlex {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
