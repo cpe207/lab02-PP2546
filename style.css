@@ -1,6 +1,6 @@
 h1.name{
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.45rem;
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
@@ -10,7 +10,7 @@ p.bio{
   text-align: center;
 }
 
-.container{
+.contain{
   max-width: 600px;
   margin: 0 auto;
   margin-top: 50px;
@@ -19,7 +19,7 @@ p.bio{
 hr{
   width: 100px;
   height: 2px;
-  background-color: #2199e8;
+  background-color: #b63f3f;
   margin-bottom: 50px;
   margin-top: 10px;
 }
@@ -43,23 +43,23 @@ span.slogan{
   margin-bottom: 35px;
 }
 
-.social-img ul{
-  margin: 0;
-  text-align: center;
+.so-img ul{
+  margin: 0 auto;
+  text-align:center;
   width: 100%;
   margin-bottom: 50px;
 }
 
-.social-img ul li{
+.so-img ul li{
   display: inline;
   background: rgba(204, 204, 204, 0.5);
-  padding: 10px;
+  padding: 15px;
   border-radius: 50%;
   cursor: pointer;
   transition: background 150ms ease-in-out;
 }
 
-.social-img ul li:hover{
+.so-img ul li:hover{
   background: #ccc;
 }
 
@@ -80,12 +80,6 @@ h5{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #6386bf;
-}
-
-.home li {
-  float: left;
-  border-right:1px solid #bbb;
 }
 
 .home li:last-child {
@@ -94,25 +88,45 @@ h5{
 
 .home li a {
   display: block;
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .home li a:hover:not(.active) {
-  background-color: #e2c46b;
+  background-color: #000000;
 }
 
 .home .active {
-  background-color: #c45959;
+  background-color: #b31312;
 }
 
-.skill-container{
-  border: solid lightcoral;
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 16px;
-  margin-bottom: 16px;
+.home1 ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+.home1 li:last-child {
+  border-right: none;
+}
+
+.home1 li a {
+  background-color: #b31312;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.home1 li a:hover:not(.active) {
+  background-color: #545454;
+  color: white;
+}
+
+.home1 .actived {
+  background-color: #000000;
+  color: white;
 }
